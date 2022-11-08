@@ -1,0 +1,24 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.btn {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    border-color: black;
+}
+
+.btn:hover {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-color: brown;
+}
