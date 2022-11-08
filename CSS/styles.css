@@ -60,12 +60,12 @@ input[type=submit] {
     cursor: pointer;
 }
 
-  
+
 input[type=submit]:hover {
     background-color: brown;
 }
 
-.container {
+.containerF {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
@@ -76,15 +76,15 @@ input[type=submit]:hover {
 
 .whatsapp {
     position:fixed;
-    width:60px;
-    height:60px;
+    width:40px;
+    height:40px;
     bottom:40px;
     right:40px;
     background-color:#25d366;
     color:#FFF;
     border-radius:50px;
     text-align:center;
-    font-size:30px;
+    font-size:20px;
     z-index:100;
 }
 
@@ -109,6 +109,26 @@ input[type=submit]:hover {
         text-decoration: underline;
     }
 
+    /*BOTON WHATSAPP*/
+
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+}
+
+.whatsapp-icon {
+    margin-top:13px;
+}
+
 }
 
 /*DESKTOP*/
@@ -127,5 +147,25 @@ input[type=submit]:hover {
         text-align: center;
         text-decoration: underline;
     }
+
+    /*BOTON WHATSAPP*/
+
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+}
+
+.whatsapp-icon {
+    margin-top:13px;
+}
 
 }
