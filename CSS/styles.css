@@ -37,6 +37,40 @@
     text-decoration: underline;
 }
 
+.contiene3Cajas {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 700px;
+    margin: 50px;
+}
+
+h5 {
+
+    text-align: center;
+
+}
+#serv {
+
+    border: outset;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+
+#serv:hover {
+
+    border: outset;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+    overflow:hidden;
+}
 /*FORMULARIO DE CONTACTO*/
 
 input[type=text], select, textarea {
@@ -107,6 +141,38 @@ input[type=submit]:hover {
         font-size: 30px;
         text-align: center;
         text-decoration: underline;
+
+    }
+
+    .contiene3Cajas {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        height: 150px;
+        margin-top: 80px;
+    
+    }
+
+    #serv {
+
+        border: outset;
+        border-radius: 20px;
+        height: 250px;
+        width: 250px;
+        
+    }
+
+    #serv:hover {
+
+        border: outset;
+        border-radius: 20px;
+        height: 200px;
+        width: 200px;
+        margin: 20px;
+        -webkit-transform:scale(1.5);transform:scale(1.5);
+        overflow:hidden;
     }
 
     /*BOTON WHATSAPP*/
@@ -146,6 +212,36 @@ input[type=submit]:hover {
         font-size: 35px;
         text-align: center;
         text-decoration: underline;
+    }
+
+    .contiene3Cajas {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        height: 200px;
+        margin-top: 80px;
+    }
+
+    #serv {
+
+        border: outset;
+        border-radius: 20px;
+        height: 250px;
+        width: 250px;
+
+    }
+
+    #serv:hover {
+
+        border: outset;
+        border-radius: 20px;
+        height: 200px;
+        width: 200px;
+        margin: 20px;
+        -webkit-transform:scale(1.5);transform:scale(1.5);
+        overflow: hidden;
     }
 
     /*BOTON WHATSAPP*/
