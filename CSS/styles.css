@@ -47,9 +47,30 @@
     margin: 50px;
 }
 
+h1 {
+
+    text-align: center;
+    text-decoration: underline;
+
+
+}
+
 h5 {
 
     text-align: center;
+
+}
+
+h6 {
+
+    text-align: center;
+
+}
+
+h6:hover {
+
+    text-align: center;
+    text-decoration: underline;
 
 }
 #serv {
@@ -81,7 +102,6 @@ h5 {
     background-color: brown;
     color: white;
     margin-top: 80px;
-
 
 }
 /*FORMULARIO DE CONTACTO*/
