@@ -41,7 +41,26 @@
     <div class="container-fluid">
         <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
-                Col1
+                    <h3 class="titleCenter">Comunicate con Nosotros</h3>
+                    <div class="container">
+                        <form action="action_page.php">
+                        <label for="fname">Nombre</label><br>
+                        <input type="text" id="fname" name="firstname" placeholder="Tu Nombre.."><br>
+                        <label for="lname">Apellido</label><br>
+                        <input type="text" id="lname" name="lastname" placeholder="Tu Apellido.."><br>
+                        <label for="email">Email</label><br>
+                        <input type="text" id="email" name="email" placeholder="Tu Email.."><br>
+                        <label for="country">Localidad</label><br>
+                        <select id="country" name="country"><br>
+                            <option value="salta">Salta</option>
+                            <option value="jujuy">Jujuy</option>
+                            <option value="tartagal">Tartagal</option><br>
+                        </select><br>
+                        <label for="subject">Mensaje</label><br>
+                        <textarea id="subject" name="subject" placeholder="Lo que deseas comunicarnos.." style="height:200px"></textarea>
+                        <input type="submit" value="Submit">
+                        </form>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-12">
                 Col2
