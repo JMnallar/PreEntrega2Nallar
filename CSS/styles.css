@@ -71,6 +71,19 @@ h5 {
     -webkit-transform:scale(1.2);transform:scale(1.2);
     overflow:hidden;
 }
+
+.contiene3Footers {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: brown;
+    color: white;
+    margin-top: 80px;
+
+
+}
 /*FORMULARIO DE CONTACTO*/
 
 input[type=text], select, textarea {
