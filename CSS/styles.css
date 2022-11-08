@@ -22,3 +22,55 @@
     background-color: black;
     border-color: brown;
 }
+
+.titleCenter {
+
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.titleCenter:hover {
+
+    font-size: 20px;
+    text-align: center;
+    text-decoration: overline;
+}
+
+/* TABLET */
+@media (min-width: 768px) {
+
+    .titleCenter {
+
+        font-size: 30px;
+        text-align: center;
+    
+    }
+
+    .titleCenter:hover {
+
+        font-size: 30px;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+}
+
+/*DESKTOP*/
+@media (min-width: 1024px) {
+
+    .titleCenter {
+
+        font-size: 35px;
+        text-align: center;
+    
+    }
+
+    .titleCenter:hover {
+
+        font-size: 35px;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+}
