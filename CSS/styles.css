@@ -42,7 +42,7 @@
     text-decoration: underline;
 }
 
-.contiene4Cajas {
+.contiene5Cajas {
 
     display: flex;
     align-items: center;
@@ -52,6 +52,7 @@
     margin: 40px;
     margin-top: 90px;
 }
+
 
 .box {
 
@@ -201,7 +202,7 @@ input[type=submit]:hover {
 
     }
 
-    .contiene4Cajas {
+    .contiene5Cajas {
 
         display: flex;
         align-items: center;
@@ -280,7 +281,7 @@ input[type=submit]:hover {
         text-decoration: underline;
     }
 
-    .contiene4Cajas {
+    .contiene5Cajas {
 
         display: flex;
         align-items: center;
