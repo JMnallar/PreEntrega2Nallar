@@ -1,9 +1,14 @@
 * {
-
     margin: 0;
     padding: 0;
-
 }
+
+.navbar {
+
+    font-weight: bold;
+    color: black;
+}
+
 
 .btn {
 
@@ -37,14 +42,33 @@
     text-decoration: underline;
 }
 
-.contiene3Cajas {
+.contiene4Cajas {
 
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     height: 700px;
-    margin: 50px;
+    margin: 40px;
+    margin-top: 90px;
+}
+
+.box {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box:hover {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: red;
+    transition-duration: unset;
 }
 
 h1 {
@@ -55,7 +79,7 @@ h1 {
 
 }
 
-h5 {
+h4 {
 
     text-align: center;
 
@@ -177,15 +201,24 @@ input[type=submit]:hover {
 
     }
 
-    .contiene3Cajas {
+    .contiene4Cajas {
 
         display: flex;
         align-items: center;
         justify-content: space-around;
         flex-direction: row;
         height: 150px;
-        margin-top: 80px;
+        margin: 40px;
     
+    }
+
+    .box {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
     }
 
     #serv {
@@ -247,14 +280,23 @@ input[type=submit]:hover {
         text-decoration: underline;
     }
 
-    .contiene3Cajas {
+    .contiene4Cajas {
 
         display: flex;
         align-items: center;
         justify-content: space-around;
         flex-direction: row;
         height: 200px;
-        margin-top: 80px;
+        margin: 40px;
+    }
+
+    .box {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
     }
 
     #serv {
