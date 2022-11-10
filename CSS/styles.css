@@ -41,7 +41,7 @@
 
     font-size: 20px;
     text-align: center;
-    text-decoration: underline;
+
 }
 
 .contiene5Cajas {
@@ -77,7 +77,6 @@
 h1 {
 
     text-align: center;
-    text-decoration: underline;
 
 
 }
@@ -104,7 +103,6 @@ h6 {
 h6:hover {
 
     text-align: center;
-    text-decoration: underline;
 
 }
 #serv {
@@ -136,6 +134,23 @@ h6:hover {
     background-color: brown;
     color: white;
     margin-top: 80px;
+
+}
+
+.row {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+/*PAGINAS POR AUTO*/
+
+.tituloPropio{
+
+    margin-top: 50px;
 
 }
 /*FORMULARIO DE CONTACTO*/
@@ -207,8 +222,16 @@ input[type=submit]:hover {
 
         font-size: 30px;
         text-align: center;
-        text-decoration: underline;
 
+    }
+
+    .row {
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    
     }
 
     .contiene5Cajas {
@@ -287,8 +310,17 @@ input[type=submit]:hover {
 
         font-size: 35px;
         text-align: center;
-        text-decoration: underline;
     }
+
+    .row {
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;    
+
+    }
+
 
     .contiene5Cajas {
 
