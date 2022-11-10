@@ -137,6 +137,20 @@ h6:hover {
 
 }
 
+a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover {
+
+    text-decoration: none;
+    color: red;
+
+}
+
 .row {
 
     display: flex;
