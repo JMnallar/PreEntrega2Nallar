@@ -224,6 +224,22 @@ iframe{
 
 }
 
+.contieneTodoServicios {
+
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contieneTodoServicios img{
+    width: auto;
+}
+
+.textoPVTA img {
+    width: auto;
+}
+
 .contieneSucursales{
 
     width: 100%;
@@ -451,6 +467,8 @@ input[type=submit]:hover {
 .whatsapp-icon {
     margin-top:13px;
 }
+
+
 
 /* TABLET */
 @media (min-width: 768px) {
@@ -727,6 +745,15 @@ input[type=submit]:hover {
 
     }
 
+    .contieneTodoServicios {
+
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+
+    }
+
     iframe{
         width: 50%;
         margin-left: 130px;
@@ -760,6 +787,10 @@ input[type=submit]:hover {
         flex-direction: column;
     }
 
+    .direccion p{
+        font-size: large;
+    }
+
 
     .telefonos{
         display: flex;
@@ -775,9 +806,30 @@ input[type=submit]:hover {
 
     }
 
-    /*BOTON WHATSAPP*/
+    #posventa{
+        margin-left: 100px;
+    }
 
-.whatsapp {
+    .posventaS{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .textoPVTA{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 20px;
+    }
+    
+
+    /*BOTON WHATSAPP */
+    
+    .whatsapp {
     position:fixed;
     width:60px;
     height:60px;
