@@ -448,6 +448,72 @@ input[type=submit]:hover {
     margin-top: 10px;
 }
 
+.tituloRecall{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.tituloRecall h6{
+    font-size: large;
+    font-weight: 400;
+}
+
+.contiene2Recall{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.recalluno{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 5px;
+    padding: 10px;
+}
+
+.recalluno h3 {
+
+    text-align: left;
+
+}
+
+.recalluno h6 {
+
+    text-align: left;
+    font-size: large;
+    font-weight: 400;
+
+}
+.garantia{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.garantia img {
+    width: 100%;
+    
+}
+
+.garantia p{
+    text-align: center;
+    padding: 10px 50px 15px 50px;
+}
+
+.garantia h3{
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 50px 15px 50px;
+}
 /*BOTON WHATSAPP*/
 
 .whatsapp {
@@ -825,7 +891,74 @@ input[type=submit]:hover {
         justify-content: flex-start;
         padding: 20px;
     }
+
+    .tituloRecall{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .tituloRecall h6{
+        font-size: large;
+        font-weight: 400;
+    }
     
+    .contiene2Recall{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .recalluno{
+        display: flex;
+        flex-direction: column;
+        align-items: f;
+        justify-content: center;
+        width: 50%;
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .recalluno h3 {
+
+        text-align: left;
+
+    }
+
+    .recalluno h6 {
+
+        text-align: left;
+        font-size: large;
+        font-weight: 400;
+
+    }
+
+    .garantia{
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .garantia img {
+        margin: 20px;
+        
+    }
+
+    .garantia p{
+        text-align: center;
+        padding: 10px 50px 15px 50px;
+    }
+
+    .garantia h3{
+        text-align: center;
+        font-weight: bold;
+        padding: 10px 50px 15px 50px;
+    }
 
     /*BOTON WHATSAPP */
     
