@@ -252,7 +252,7 @@ iframe{
     height: 800px;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+
 }
 
 .sucursales{
@@ -263,7 +263,6 @@ iframe{
     align-items: center;
     justify-content: center;
     margin: 20px;
-    padding: 10px;
 }
 
 .direccion{
@@ -271,7 +270,6 @@ iframe{
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    padding: 10px;
 }
 
 
@@ -281,7 +279,6 @@ iframe{
     align-items: flex-end;
     justify-content: flex-end;
     margin-left: 30px;
-    padding: 10px;
 }
 
 .contiene3Footers {
