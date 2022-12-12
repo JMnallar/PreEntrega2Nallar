@@ -74,7 +74,7 @@
 
 .buttonFijos:hover {
     position:fixed;
-    width:120px;
+    width:60px;
     height:60px;
     top: 150px;
     right: 12px;
@@ -87,7 +87,7 @@
 
 .buttonFijos1:hover {
     position:fixed;
-    width:120px;
+    width:60px;
     height:60px;
     top: 220px;
     right: 12px;
@@ -100,7 +100,7 @@
 
 .buttonFijos2:hover {
 position:fixed;
-width:120px;
+width:60px;
 height:60px;
 background-color: black;
 color:#FFF;
