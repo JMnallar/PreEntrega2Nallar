@@ -4,7 +4,130 @@
     padding: 0;
     font-family: 'Nunito', sans-serif;
 }
-/*BOTONES */
+    /*BOTON WHATSAPP */
+    
+    .buttonFijos {
+        position:fixed;
+        width:60px;
+        height:60px;
+        top: 150px;
+        right: 12px;
+        border-radius: 10px;
+        background-color:black;
+        color:#FFF;
+        text-align:center;
+        font-size:30px;
+        z-index:100;
+    }
+
+    .buttonFijos1 {
+        position:fixed;
+        width:60px;
+        height:60px;
+        top: 220px;
+        border-radius: 10px;
+        right: 12px;
+        background-color: black ;
+        color:#FFF;
+        text-align:center;
+        font-size:30px;
+        z-index:100;
+    }
+
+    .buttonFijos2 {
+    position:fixed;
+    width:60px;
+    height:60px;
+    border-radius: 10px;
+    background-color: black;
+    color:#FFF;
+    top: 290px;
+    right: 12px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+}
+
+.buttonFijos > a > i{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12.5px;
+}
+
+.buttonFijos1 > a > i{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12.5px;
+}
+
+.buttonFijos2 > a > i{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12.5px;
+}
+
+.buttonFijos:hover {
+    position:fixed;
+    width:120px;
+    height:60px;
+    top: 150px;
+    right: 12px;
+    background-color:black;
+    color:#FFF;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+}
+
+.buttonFijos1:hover {
+    position:fixed;
+    width:120px;
+    height:60px;
+    top: 220px;
+    right: 12px;
+    background-color: black ;
+    color:#FFF;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+}
+
+.buttonFijos2:hover {
+position:fixed;
+width:120px;
+height:60px;
+background-color: black;
+color:#FFF;
+top: 290px;
+right: 12px;
+text-align:center;
+font-size:30px;
+z-index:100;
+}
+
+.buttonFijos:hover i{
+    color: #fff;
+    text-align: center;
+    margin-top: 12.5px;
+}
+
+.buttonFijos1:hover i{
+    color: #fff;
+    text-align: center;
+    margin-top: 12.5px;
+}
+
+.buttonFijos2:hover i{
+    color: #fff;
+    text-align: center;
+    margin-top: 12.5px;
+}
 
 /*CARRUSEL*/
 
@@ -21,12 +144,12 @@
         color: #000;
         margin: 0;
         padding: 0;
-      }
+    }
 
     .swiper {
         width: 100%;
         height: 100%;
-      }
+    }
 
     .swiper-slide {
         text-align: center;
@@ -45,7 +168,7 @@
         -ms-flex-align: center;
         -webkit-align-items: center;
         align-items: center;
-      }
+    }
 
     .swiper-slide img {
         display: block;
@@ -127,6 +250,15 @@
     justify-content: center;
     flex-direction: column;
 
+
+}
+
+.boxConfort123 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
 }
 
@@ -376,6 +508,7 @@ border-radius: 20px;
     flex-direction: column;
 
 
+
 }
 
 .internos h5 {
@@ -520,29 +653,11 @@ input[type=submit]:hover {
     font-weight: bold;
     padding: 10px 50px 15px 50px;
 }
-/*BOTON WHATSAPP*/
-
-.whatsapp {
-    position:fixed;
-    width:60px;
-    height:60px;
-    bottom:40px;
-    right:40px;
-    background-color:#25d366;
-    color:#FFF;
-    border-radius:50px;
-    text-align:center;
-    font-size:30px;
-    z-index:100;
-}
-
-.whatsapp-icon {
-    margin-top:13px;
-}
-
-
+/*BOTON WHATSA
+PP*/
 
 /* TABLET */
+
 @media (min-width: 768px) {
 
     .nav-item {
@@ -612,25 +727,6 @@ input[type=submit]:hover {
         overflow:hidden;
     }
 
-    /*BOTON WHATSAPP*/
-
-    .whatsapp {
-        position:fixed;
-        width:60px;
-        height:60px;
-        bottom:40px;
-        right:40px;
-        background-color:#25d366;
-        color:#FFF;
-        border-radius:50px;
-        text-align:center;
-        font-size:30px;
-        z-index:100;
-    }
-    
-    .whatsapp-icon {
-        margin-top:13px;
-    }
 
 }
 
@@ -880,6 +976,7 @@ input[type=submit]:hover {
 
     #posventa{
         margin-left: 100px;
+        width: 600px;
     }
 
     .posventaS{
@@ -968,22 +1065,127 @@ input[type=submit]:hover {
 
     /*BOTON WHATSAPP */
     
-    .whatsapp {
+    .buttonFijos {
+        position:fixed;
+        width:60px;
+        height:60px;
+        top: 150px;
+        right: 12px;
+        border-radius: 10px;
+        background-color:black;
+        color:#FFF;
+        text-align:center;
+        font-size:30px;
+        z-index:100;
+    }
+
+    .buttonFijos1 {
+        position:fixed;
+        width:60px;
+        height:60px;
+        top: 220px;
+        border-radius: 10px;
+        right: 12px;
+        background-color: black ;
+        color:#FFF;
+        text-align:center;
+        font-size:30px;
+        z-index:100;
+    }
+
+    .buttonFijos2 {
     position:fixed;
     width:60px;
     height:60px;
-    bottom:40px;
-    right:40px;
-    background-color:#25d366;
+    border-radius: 10px;
+    background-color: black;
     color:#FFF;
-    border-radius:50px;
+    top: 290px;
+    right: 12px;
     text-align:center;
     font-size:30px;
     z-index:100;
 }
 
-.whatsapp-icon {
-    margin-top:13px;
+.buttonFijos > a > i{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12.5px;
+}
+
+.buttonFijos1 > a > i{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12.5px;
+}
+
+.buttonFijos2 > a > i{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12.5px;
+}
+
+.buttonFijos:hover {
+    position:fixed;
+    width:120px;
+    height:60px;
+    top: 150px;
+    right: 12px;
+    background-color:black;
+    color:#FFF;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+}
+
+.buttonFijos1:hover {
+    position:fixed;
+    width:120px;
+    height:60px;
+    top: 220px;
+    right: 12px;
+    background-color: black ;
+    color:#FFF;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+}
+
+.buttonFijos2:hover {
+position:fixed;
+width:120px;
+height:60px;
+background-color: black;
+color:#FFF;
+top: 290px;
+right: 12px;
+text-align:center;
+font-size:30px;
+z-index:100;
+}
+
+.buttonFijos:hover i{
+    color: #fff;
+    text-align: center;
+    margin-top: 12.5px;
+}
+
+.buttonFijos1:hover i{
+    color: #fff;
+    text-align: center;
+    margin-top: 12.5px;
+}
+
+.buttonFijos2:hover i{
+    color: #fff;
+    text-align: center;
+    margin-top: 12.5px;
 }
 
 }
