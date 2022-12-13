@@ -4,6 +4,79 @@
     padding: 0;
     font-family: 'Nunito', sans-serif;
 }
+    /*ASESOR */
+    .tituloAsesor h6{
+        text-align: left;
+        margin: 15px;
+    }
+
+    .pruebaMainP{
+        width: 100%;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .pruebaMain1{
+        width: 100%;
+    }
+
+    .pruebaMain1 img{
+        width: 100%;
+    }
+
+
+    .pruebaMain{
+
+        width: 100%;
+        height: 500px;
+    }
+
+    .form-row{
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+    }
+
+    .form-group{
+        margin-left: 10px;
+    }
+
+    .form-group1{
+
+        margin-left: 20px;
+    }
+
+    .btn{
+        margin-top: -10px;
+        margin-left: 15px;
+    }
+
+    .pruebaMain1 h3{
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    .pruebaMain h3{
+        text-align: left;
+        margin-left: 15px;
+    }
+
+    .pruebaMain h6{
+        text-align: left;
+        margin: 15px;
+    }
+
+    .pruebaMain h6:hover{
+        text-align: left;
+        margin: 15px;
+    }
+
+    .custom-control-input{
+        margin-left: 15px;
+    }
+
     /*BOTON WHATSAPP */
     
     .buttonFijos {
@@ -96,7 +169,7 @@
     text-align:center;
     font-size:30px;
     z-index:100;
-}
+}b
 
 .buttonFijos2:hover {
 position:fixed;
@@ -732,6 +805,76 @@ PP*/
 
 /*DESKTOP*/
 @media (min-width: 1024px) {
+
+    .tituloAsesor h6{
+        text-align: left;
+        margin: 15px;
+    }
+
+    .pruebaMainP{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .pruebaMain1 img{
+        width: 100%;
+        margin: 15px;
+    }
+
+
+    .pruebaMain1{
+        width: 40%;
+    }
+
+    .pruebaMain{
+
+        width: 60%;
+        height: 500px;
+        margin-left: 200px;
+    }
+
+    .form-row{
+        display: flex;
+        flex-direction: row;
+        margin: 5px;
+    }
+
+    .form-group{
+        margin-left: 10px;
+    }
+
+    .form-group1{
+
+        margin-left: 20px;
+    }
+
+    .btn{
+        margin-top: -10px;
+        margin-left: 15px;
+    }
+
+    .pruebaMain1 h3{
+        text-align: center;
+        margin-left: 15px;
+
+    }
+
+    .pruebaMain h3{
+        text-align: left;
+        margin-left: 15px;
+    }
+
+    .pruebaMain h6{
+        text-align: left;
+        margin: 15px;
+    }
+
+    .custom-control-input{
+        margin-left: 15px;
+    }
 
     .nav-item {
         margin-left: 60px;
