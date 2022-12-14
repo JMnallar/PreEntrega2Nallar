@@ -4,6 +4,45 @@
     padding: 0;
     font-family: 'Nunito', sans-serif;
 }
+    /*HOME */
+
+    .descubriToyota{
+        width: 100%;
+        height: 900px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-top: 80px;
+    }
+
+    .tiHome{
+        margin-left: 50px;
+    }
+
+    .home{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home h4{
+        text-align: left;
+        margin-top: 5px;
+    }
+
+    
+    .home p{
+        text-align: left;
+        font-weight: bold;
+        font-size: medium;
+    }
+
+    .home img{
+        width: 100%;
+        height: 250px;
+    }
     /*ASESOR */
     .tituloAsesor h6{
         text-align: left;
@@ -290,13 +329,13 @@ z-index:100;
 
 }
 
-.contiene5Cajas {
+.Homecontiene5Cajas {
 
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 700px;
+    height: 400px;
     margin: 40px;
     margin-top: 90px;
 }
@@ -326,13 +365,13 @@ z-index:100;
 
 }
 
-.boxConfort123 {
+.boxConfort123 a{
 
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
+    
 }
 
 .boxConfort1 img {
@@ -760,7 +799,7 @@ PP*/
     
     }
 
-    .contiene5Cajas {
+    .Homecontiene5Cajas {
 
         display: flex;
         align-items: center;
@@ -805,6 +844,44 @@ PP*/
 
 /*DESKTOP*/
 @media (min-width: 1024px) {
+
+    .descubriToyota{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        padding: 50px;
+        margin-top: -20px;
+    }
+
+    .tiHome{
+        margin-left: 50px;
+    }
+
+    .home{
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    .home h4{
+        text-align: left;
+        margin-top: 5px;
+    }
+
+    
+    .home p{
+        text-align: left;
+        font-weight: bold;
+        font-size: medium;
+    }
+
+    .home img{
+        width: 100%;
+        height: 250px;
+    }
 
     .tituloAsesor h6{
         text-align: left;
@@ -877,7 +954,7 @@ PP*/
     }
 
     .nav-item {
-        margin-left: 60px;
+        margin-left: 50px;
         color: #000;
     }
 
