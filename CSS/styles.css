@@ -4,6 +4,69 @@
     padding: 0;
     font-family: 'Nunito', sans-serif;
 }
+
+.TituloPlan h4{
+    text-align: left;
+    margin-left: 20px;
+    font-size: medium;
+}
+
+.contieneTodoPlanes{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 700px;
+}
+
+.Planes{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    flex-direction: column;
+}
+
+.Planes h4 {
+    padding-left: 25px;
+    padding-right: 25px;
+    color: red;
+}
+
+.Planes h5 {
+    font-weight: bold;
+    text-align: left;
+}
+
+.Planes p {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.textoPlanes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.textoPlanes h4{
+    color: red;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.textoPlanes img{
+    height: 180px;
+    align-items: center;
+}
+
+.textoPlanes button{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
     /*HOME */
 
     .descubriToyota{
@@ -844,6 +907,63 @@ PP*/
 
 /*DESKTOP*/
 @media (min-width: 1024px) {
+
+    .contieneTodoPlanes{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: row;
+        height: 400px;
+        width: 100%;
+    }
+    
+    .Planes{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+        flex-direction: column;
+        width: 60%;
+    }
+
+    .Planes h4 {
+        padding-left: 100px;
+        color: red;
+    }
+
+    .Planes h5 {
+        padding-left: 50px;
+        font-weight: bold;
+    }
+
+    .Planes p {
+        padding-left: 100px;
+    }
+
+    .textoPlanes{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: left;
+        flex-direction: column;
+        margin-left: -100px;
+        width: 40%;
+    }
+
+    .textoPlanes h4{
+        color: red;
+    }
+
+    .textoPlanes img{
+        height: 250px;
+    }
+
+    .textoPlanes button{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+
 
     .descubriToyota{
         width: 100%;
