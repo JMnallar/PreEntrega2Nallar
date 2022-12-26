@@ -5,6 +5,100 @@
     font-family: 'Nunito', sans-serif;
 }
 
+.textosustentabilidad h1{
+    text-align: left;
+    padding-left: 30px;
+    font-weight: bold;
+    
+}
+
+.textosustentabilidad h3{
+    text-align: left;
+    padding-left: 30px;
+    font-weight: bold;
+    color: red;
+}
+
+.textosustentabilidad p{
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size:medium;
+}
+
+.corporativas1{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.corp1{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.corp1 h5{
+    font-weight: bold;
+    color: red;
+    margin-top: 20px;
+}
+
+.corp1 p{
+    font-size: medium;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+.corp1 button{
+    font-size: medium;
+    margin-left: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.corp1 ul li{
+    font-size: medium;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+.textoEmpresaC h3{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.textoEmpresaC h5{
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.textoEmpresaC h6{
+    text-align: left;
+    padding-left: 60px;
+    padding-right: 10px;
+}
+
+.textoEmpresa h1{
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.textoEmpresa p{
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: medium;
+}
+
 .TituloPlan h4{
     text-align: left;
     margin-left: 20px;
@@ -488,11 +582,6 @@ h6 {
 
 }
 
-h6:hover {
-
-    text-align: center;
-
-}
 #serv {
 
     border: outset;
@@ -920,6 +1009,90 @@ PP*/
 
 /*DESKTOP*/
 @media (min-width: 1024px) {
+
+    .textosustentabilidad h1{
+        text-align: left;
+        padding-left: 100px;
+        font-weight: bold;
+        
+    }
+    
+    .textosustentabilidad h3{
+        text-align: left;
+        padding-left: 100px;
+        font-weight: bold;
+        color: red;
+    }
+
+    .textosustentabilidad p{
+        text-align: left;
+        padding-left: 100px;
+        padding-right: 100px;
+        font-size:medium;
+    }
+
+
+    .corporativas1{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: row;
+    }
+
+    .corp1{
+        width: 50%;
+        margin-top: 50px;
+    }
+
+    .corp1 h5{
+        font-weight: bold;
+        color: red;
+        padding-left: 50px;
+    }
+
+    .corp1 p{
+        font-size: medium;
+        padding-left: 100px;
+    }
+
+    .corp1 button{
+        font-size: medium;
+        margin-left: 100px;
+    }
+
+    .corp1 ul li{
+        font-size: medium;
+        padding-left: 60px;
+    }
+
+    .textoEmpresaC h3{
+        text-align: center;
+        padding-left: 100px;
+        font-weight: bold;
+    }
+
+    .textoEmpresaC h5{
+        text-align: left;
+        padding-left: 100px;
+    }
+
+    .textoEmpresaC h6{
+        text-align: left;
+        padding-left: 150px;
+    }
+
+    .textoEmpresa h1{
+        text-align: left;
+        padding-left: 100px;
+        font-weight: bold;
+    }
+    
+    .textoEmpresa p{
+        text-align: left;
+        padding-left: 100px;
+    }
 
     .contieneTodoPlanes{
         display: flex;
