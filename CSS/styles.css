@@ -938,7 +938,7 @@ PP*/
 @media (min-width: 768px) {
 
     .nav-item {
-        margin-left: 60px;
+        margin-left: 10px;
     }
 
     .titleCenter {
@@ -1260,7 +1260,7 @@ PP*/
     }
 
     .nav-item {
-        margin-left: 50px;
+        margin-left: 40px;
         color: #000;
     }
 
