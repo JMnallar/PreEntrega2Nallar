@@ -5,6 +5,23 @@
     font-family: 'Nunito', sans-serif;
 }
 
+.tituloPlanAhorro{
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.tituloPlanAhorro p{
+    padding-left: 30px;
+    font-size: medium;
+}
+
+.tituloPlanAhorro h4{
+    padding-left: 30px;
+}
+
 .toyotasalta h3{
     text-align: center;
 }
@@ -185,7 +202,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    height: 700px;
+    height: 500px;
 }
 
 .Planes{
@@ -214,9 +231,9 @@
 
 .textoPlanes{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
     flex-direction: column;
 }
 
@@ -224,16 +241,14 @@
     color: red;
     padding-left: 25px;
     padding-right: 25px;
+    text-align: left;
 }
 
-.textoPlanes img{
-    height: 180px;
-    align-items: center;
-}
 
 .textoPlanes button{
     padding-left: 50px;
     padding-right: 50px;
+    margin-left: 50px;
 }
 
     /*HOME */
@@ -349,7 +364,7 @@
     }
 
     /*BOTON WHATSAPP */
-    
+
     .buttonFijos {
         position:fixed;
         width:60px;
@@ -1102,6 +1117,23 @@ PP*/
 /*DESKTOP*/
 @media (min-width: 1024px) {
 
+    .tituloPlanAhorro{
+        display: flex;
+        text-align: left;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .tituloPlanAhorro p{
+        padding-left: 100px;
+        font-size: medium;
+    }
+
+    .tituloPlanAhorro h4{
+        padding-left: 100px;
+    }
+
     .footerUno ul li{
         color: #fff;
         text-decoration: none;
@@ -1124,7 +1156,6 @@ PP*/
         background-color: rgb(14, 14, 14);
         color: white;
         margin-top: 80px;
-    
     }
 
     .contiene5asesores {
@@ -1309,7 +1340,7 @@ PP*/
         justify-content: flex-start;
         align-items: flex-start;
         flex-direction: row;
-        height: 400px;
+        height: 300px;
         width: 100%;
     }
     
